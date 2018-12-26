@@ -1,22 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import NavLinks from '../components/nav-links';
 
 const ThirdPage = () => (
   <Layout>
     <SEO title="Page three" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 3</p>
-      <nav>
-        <ul>
-          <li><Link to ="/">Home</Link></li>
-        </ul>
-      </nav>
-    <Link to="/">Go back to the homepage</Link>
-    
-  </Layout>
+    <h1>Third page</h1>
+    <p>A third test page component.</p>
+    <NavLinks />
+  </Layout> 
 )
 export default ThirdPage
 
