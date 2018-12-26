@@ -4,11 +4,11 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const SecondPage = () => (
+const ThirdPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Page three" />
     <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <p>Welcome to page 3</p>
       <nav>
         <ul>
           <li><Link to ="/">Home</Link></li>
@@ -18,5 +18,7 @@ const SecondPage = () => (
     
   </Layout>
 )
+export default ThirdPage
 
-export default SecondPage
+
+   
